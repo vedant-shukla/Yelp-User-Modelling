@@ -1,0 +1,314 @@
+body {
+  font-family: 'Signika', sans-serif;
+  position: relative;
+  //background-color: #EAECEE;
+}
+/* stylesheet for your custom graph */
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;	
+
+}
+.states-choropleth {
+  	fill: #F9EBEA;
+    cursor: pointer;
+}
+#tooltip-container {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: 1px solid;
+  display: none;
+}
+
+.tooltip_key {
+  font-weight: bold;
+}
+.tooltip_value {
+  margin-left: 20px;
+  float: right;
+}
+
+select{
+	//height: 30px;
+	//width: 150px;
+	border-radius: 0;
+	padding:10px;
+	padding-left: 40px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #E74C3C;
+	color: #E74C3C;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+option{
+	border-radius: 0;
+	padding:20px;
+	padding-left: 40px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #E74C3C;
+	color: #E74C3C;
+	cursor: pointer;
+}
+
+
+
+.type{
+	text-transform: uppercase;
+	fill: #1F618D;
+	font-size: 1.1em;
+}
+
+.type1{
+	fill:#797D7F;
+}
+.type2{
+	fill:#797D7F;	
+}
+
+.value{
+	fill: #1F618D;
+	font-size: 0.8em;
+}
+
+.percentage{
+	//margin-top: 5px;
+	font-weight: bold;
+	font-size: 0.8em;
+	fill: #1F618D;
+}
+
+.mapDiv{
+	//background-color: #FDEDEC;
+	//box-shadow: 0 0 5px 5px #FDEDEC;
+}
+
+.donutDiv{
+	//background-color: white;
+	//margin-left: 50px;
+	margin-top: 10px;
+}
+
+.categoryBtn{
+	background:none;
+	outline: none;
+	border:1px solid #E74C3C;
+	color: #E74C3C;
+	padding-left: 8px;
+	padding-right:8px;
+	margin-left: 5px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    border-radius: 7px;
+}
+
+.categoryBtn:hover{
+	background-color: #E74C3C;
+	color: white;
+}
+
+.specBtn{
+	background-color: #E74C3C;
+	color: white;
+}
+
+.nameRow{
+	margin-left: 50px;
+	 margin-top: 10px;
+	 //padding-right: 50px;
+}
+
+
+
+.nameBtn{
+	background:none;
+	outline: none;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #E74C3C;
+	background-color:#E74C3C; 
+	color: white;
+	cursor: pointer;
+	//box-shadow: 0 0 2px 2px #E74C3C;
+	-webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.nameBtn:hover{
+	background-color: white;
+	color: #E74C3C;
+	box-shadow: none;
+	border: 1px solid #E74C3C;
+}
+
+
+.nameBtn1{
+	background:none;
+	outline: none;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #1E8449;
+	background-color:#1E8449; 
+	color: white;
+	cursor: pointer;
+	//box-shadow: 0 0 2px 2px #E74C3C;
+	-webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.nameBtn1:hover{
+	background-color: white;
+	color: #1E8449;
+	box-shadow: none;
+	border: 1px solid #1E8449;
+}
+
+.nameRow1{
+	margin-left: 100px;
+	 margin-top: 10px;
+	 padding-right: 100px;
+}
+
+.paddingZero{
+	padding: 0;
+}
+
+.rank{
+	border:1px solid #E74C3C;
+	color: #E74C3C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+.rank1{
+	border:1px solid #1E8449;
+	color: #1E8449;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.donutContainer{
+	margin: 10px;
+	//background-color: white;
+	height: 400px;
+	margin-top: 0;
+}
+
+.textCenter{
+	text-align: center;
+	padding-top: 150px;
+}
+
+.nameBtnDonut{
+	background:none;
+	outline: none;
+	border:1px solid #1E8449;
+	color: #1E8449;
+	padding-left: 8px;
+	padding-right:8px;
+	margin-left: 5px;
+	margin-top: 2px;
+	cursor: pointer;
+	-webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    border-radius: 7px;
+}
+
+.nameBtnDonut:hover{
+	background-color: #1E8449;
+	color: white;
+
+}
+
+
+.nameBtnDonutSpec1{
+	background-color: #28B463;
+	color: white;
+	border:1px solid #28B463;
+}
+
+.nameBtnDonutSpec2{
+	background-color: #D68910;
+	color: white;
+	border:1px solid #D68910;
+}
+
+.nameBtnDonutSpec2:hover{
+	background-color: #D68910;
+	color: white;
+	border:1px solid #D68910;
+}
+
+
+
+.legend{
+	text-align: center;
+}
+
+.user2{
+	color: #D68910;
+	text-align: right;
+	font-size: 1.2em;
+	padding-right:5px;
+}
+
+.user1{
+	color: #28B463;
+	text-align: center;
+	text-align: left;
+	font-size: 1.2em;
+	padding-left:5px;
+}
+
+.usLegend{
+		text-align: center;
+		color:  #E74C3C;
+		margin-top: 30px;
+}
+
+.topUsersTitle{
+	text-align: center;
+	color:#E74C3C;
+	margin-top: 30px;
+	font-size: 1.3em;
+	margin-left: 50px;
+}
+
+.topRestTitle{
+	text-align: center;
+	color: #1E8449;
+	margin-top: 30px;
+	font-size: 1.3em;
+	margin-left: 50px;
+}
+
+.img{
+	padding-left:100px;
+}
+
+.siteTitle{
+	font-size: 2.2em;
+	text-align: center;
+	color: #E74C3C;
+	margin-top: 30px;
+}
+
+ #map {
+        width: 80%;
+        height: 400px;
+        background-color: grey;
+
+      }

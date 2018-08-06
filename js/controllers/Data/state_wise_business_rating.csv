@@ -1,0 +1,256 @@
+Category,State,Rating
+Restaurant,Alabama,0
+Restaurant,Alaska,1.494961657
+Restaurant,Arizona,1.753475978
+Restaurant,Arkansas,0
+Restaurant,California,1.362186027
+Restaurant,Colorado,2.125954111
+Restaurant,Connecticut,0
+Restaurant,Delaware,0
+Restaurant,District of Columbia,0
+Restaurant,Florida,0
+Restaurant,Georgia,0
+Restaurant,Hawaii,0
+Restaurant,Idaho,0
+Restaurant,Illinois,1.203836379
+Restaurant,Indiana,2.150253966
+Restaurant,Iowa,0
+Restaurant,Kansas,0
+Restaurant,Kentucky,0
+Restaurant,Louisiana,0
+Restaurant,Maine,0
+Restaurant,Montana,0
+Restaurant,Nebraska,0
+Restaurant,Nevada,1.058242332
+Restaurant,New Hampshire,0
+Restaurant,New Jersey,0
+Restaurant,New Mexico,0
+Restaurant,New York,2.655681683
+Restaurant,North Carolina,0.748120394
+Restaurant,North Dakota,0
+Restaurant,Ohio,0.96282655
+Restaurant,Oklahoma,0
+Restaurant,Oregon,0
+Restaurant,Maryland,0
+Restaurant,Massachusetts,0
+Restaurant,Michigan,0
+Restaurant,Minnesota,0
+Restaurant,Mississippi,0
+Restaurant,Missouri,0
+Restaurant,Pennsylvania,0.811412463
+Restaurant,Rhode Island,0
+Restaurant,South Carolina,0.785923308
+Restaurant,South Dakota,0
+Restaurant,Tennessee,0
+Restaurant,Texas,0
+Restaurant,Utah,0
+Restaurant,Vermont,0
+Restaurant,Virginia,2.545277862
+Restaurant,Washington,0
+Restaurant,West Virginia,0
+Restaurant,Wisconsin,0.634715131
+Restaurant,Wyoming,0
+Shopping,Alabama,0
+Shopping,Alaska,0
+Shopping,Arizona,1.415739092
+Shopping,Arkansas,0
+Shopping,California,0
+Shopping,Colorado,0
+Shopping,Connecticut,0
+Shopping,Delaware,2.714765101
+Shopping,District of Columbia,0
+Shopping,Florida,0
+Shopping,Georgia,0
+Shopping,Hawaii,0
+Shopping,Idaho,0
+Shopping,Illinois,1.655446407
+Shopping,Indiana,0
+Shopping,Iowa,0
+Shopping,Kansas,0
+Shopping,Kentucky,0
+Shopping,Louisiana,0
+Shopping,Maine,0
+Shopping,Montana,1.914870474
+Shopping,Nebraska,0
+Shopping,Nevada,1.40742694
+Shopping,New Hampshire,0
+Shopping,New Jersey,0
+Shopping,New Mexico,0
+Shopping,New York,1.471715899
+Shopping,North Carolina,1.635557103
+Shopping,North Dakota,0
+Shopping,Ohio,1.426488112
+Shopping,Oklahoma,0
+Shopping,Oregon,0
+Shopping,Maryland,0
+Shopping,Massachusetts,0
+Shopping,Michigan,0
+Shopping,Minnesota,0
+Shopping,Mississippi,0
+Shopping,Missouri,0
+Shopping,Pennsylvania,1.603403742
+Shopping,Rhode Island,0
+Shopping,South Carolina,0.754993867
+Shopping,South Dakota,0
+Shopping,Tennessee,0
+Shopping,Texas,0
+Shopping,Utah,0
+Shopping,Vermont,0
+Shopping,Virginia,0
+Shopping,Washington,0
+Shopping,West Virginia,0
+Shopping,Wisconsin,1.229450173
+Shopping,Wyoming,0
+Health & Medical,Alabama,
+Health & Medical,Alaska,
+Health & Medical,Arizona,1.455857531
+Health & Medical,Arkansas,1.28527454
+Health & Medical,California,2.875736397
+Health & Medical,Colorado,
+Health & Medical,Connecticut,
+Health & Medical,Delaware,
+Health & Medical,District of Columbia,
+Health & Medical,Florida,
+Health & Medical,Georgia,
+Health & Medical,Hawaii,
+Health & Medical,Idaho,
+Health & Medical,Illinois,2.113720367
+Health & Medical,Indiana,
+Health & Medical,Iowa,
+Health & Medical,Kansas,
+Health & Medical,Kentucky,
+Health & Medical,Louisiana,
+Health & Medical,Maine,
+Health & Medical,Montana,
+Health & Medical,Nebraska,
+Health & Medical,Nevada,1.500985156
+Health & Medical,New Hampshire,
+Health & Medical,New Jersey,
+Health & Medical,New Mexico,
+Health & Medical,New York,
+Health & Medical,North Carolina,1.169994338
+Health & Medical,North Dakota,
+Health & Medical,Ohio,1.056558561
+Health & Medical,Oklahoma,
+Health & Medical,Oregon,
+Health & Medical,Maryland,
+Health & Medical,Massachusetts,
+Health & Medical,Michigan,
+Health & Medical,Minnesota,
+Health & Medical,Mississippi,
+Health & Medical,Missouri,
+Health & Medical,Pennsylvania,0.962841596
+Health & Medical,Rhode Island,
+Health & Medical,South Carolina,1.791262651
+Health & Medical,South Dakota,
+Health & Medical,Tennessee,
+Health & Medical,Texas,
+Health & Medical,Utah,
+Health & Medical,Vermont,
+Health & Medical,Virginia,
+Health & Medical,Washington,2.36059969
+Health & Medical,West Virginia,
+Health & Medical,Wisconsin,1.57955124
+Health & Medical,Wyoming,
+Home & Service,Alabama,
+Home & Service,Alaska,
+Home & Service,Arizona,1.838216702
+Home & Service,Arkansas,
+Home & Service,California,2.067087875
+Home & Service,Colorado,
+Home & Service,Connecticut,
+Home & Service,Delaware,
+Home & Service,District of Columbia,
+Home & Service,Florida,
+Home & Service,Georgia,2.517643778
+Home & Service,Hawaii,
+Home & Service,Idaho,
+Home & Service,Illinois,1.836564127
+Home & Service,Indiana,
+Home & Service,Iowa,
+Home & Service,Kansas,
+Home & Service,Kentucky,
+Home & Service,Louisiana,
+Home & Service,Maine,
+Home & Service,Montana,
+Home & Service,Nebraska,
+Home & Service,Nevada,1.056973359
+Home & Service,New Hampshire,
+Home & Service,New Jersey,
+Home & Service,New Mexico,
+Home & Service,New York,2.210195171
+Home & Service,North Carolina,1.830516498
+Home & Service,North Dakota,
+Home & Service,Ohio,1.325708267
+Home & Service,Oklahoma,
+Home & Service,Oregon,
+Home & Service,Maryland,
+Home & Service,Massachusetts,
+Home & Service,Michigan,
+Home & Service,Minnesota,2.922072139
+Home & Service,Mississippi,
+Home & Service,Missouri,
+Home & Service,Pennsylvania,2.526483419
+Home & Service,Rhode Island,
+Home & Service,South Carolina,1.059593717
+Home & Service,South Dakota,
+Home & Service,Tennessee,
+Home & Service,Texas,
+Home & Service,Utah,
+Home & Service,Vermont,2.27878416
+Home & Service,Virginia,
+Home & Service,Washington,
+Home & Service,West Virginia,
+Home & Service,Wisconsin,1.849372256
+Home & Service,Wyoming,
+Beauty & Spa,Alabama,2.058705912
+Beauty & Spa,Alaska,
+Beauty & Spa,Arizona,1.207617303
+Beauty & Spa,Arkansas,
+Beauty & Spa,California,2.875736397
+Beauty & Spa,Colorado,
+Beauty & Spa,Connecticut,
+Beauty & Spa,Delaware,
+Beauty & Spa,District of Columbia,
+Beauty & Spa,Florida,
+Beauty & Spa,Georgia,
+Beauty & Spa,Hawaii,
+Beauty & Spa,Idaho,
+Beauty & Spa,Illinois,1.314577289
+Beauty & Spa,Indiana,
+Beauty & Spa,Iowa,
+Beauty & Spa,Kansas,
+Beauty & Spa,Kentucky,
+Beauty & Spa,Louisiana,
+Beauty & Spa,Maine,
+Beauty & Spa,Montana,
+Beauty & Spa,Nebraska,
+Beauty & Spa,Nevada,1.229293436
+Beauty & Spa,New Hampshire,
+Beauty & Spa,New Jersey,
+Beauty & Spa,New Mexico,
+Beauty & Spa,New York,
+Beauty & Spa,North Carolina,0.957319227
+Beauty & Spa,North Dakota,
+Beauty & Spa,Ohio,1.342257815
+Beauty & Spa,Oklahoma,
+Beauty & Spa,Oregon,
+Beauty & Spa,Maryland,
+Beauty & Spa,Massachusetts,
+Beauty & Spa,Michigan,
+Beauty & Spa,Minnesota,
+Beauty & Spa,Mississippi,
+Beauty & Spa,Missouri,
+Beauty & Spa,Pennsylvania,0.801479311
+Beauty & Spa,Rhode Island,
+Beauty & Spa,South Carolina,1.101966276
+Beauty & Spa,South Dakota,
+Beauty & Spa,Tennessee,
+Beauty & Spa,Texas,
+Beauty & Spa,Utah,
+Beauty & Spa,Vermont,
+Beauty & Spa,Virginia,
+Beauty & Spa,Washington,2.36059969
+Beauty & Spa,West Virginia,
+Beauty & Spa,Wisconsin,1.408274892
+Beauty & Spa,Wyoming,

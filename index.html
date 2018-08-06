@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html ng-app="dataVisualization">
+	<head>
+		<title>User-Centric Yelp Dataset Visualization</title>
+		<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/angular.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-cookies.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/routers/route.js"></script>
+		<script src="js/controllers/bodyCont.controller.js"></script>
+		<script src="js/controllers/dataVisualization.controller.js"></script>
+		<script src="js/controllers/main.controller.js"></script>	
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		 <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAyt6yYphd9epbr1vZ6fOk9rzIPTfoFaQ">
+    </script>
+		<link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/index.css">
+
+
+	</head>
+
+	<body ng-controller="bodyCont">
+		
+		<!--<a href="#playerVsPlayer">Player Vs Player</a>-->
+		<ng-view></ng-view>
+
+
+	<script type="text/javascript">
+		function reload(){
+			window.location.assign("http://localhost/Final_Project_DV/");
+		}
+	/*
+			d3.csv("DharminData/2004.csv", function(data){
+
+
+				data.forEach(function(d){
+					console.log(d);
+				})
+
+			})
+			var data = [10,50,80];
+
+				var r = 300;
+
+				var canvas = d3.select("#div1").append("svg")
+						.attr("width",1500)
+						.attr("height",1500);
+
+
+				
+				var group = canvas.append("g")
+							.attr("transform", "translate(300, 300)");
+
+
+				var arc = d3.arc()
+							.innerRadius(200)
+							.outerRadius(r);
+
+				var pie = d3.layout.pie()
+							.value(function(d) {return d;});
+
+				var arcs = canvas.selectAll(".arc")
+							.data(pie(data))
+							.enter()
+							.append("g")
+							.attr("class", "arc");			
+
+
+
+
+		/*
+				var colorScale = d3.scaleLinear()
+								.domain([0,200])
+								.range([d3.rgb('#FF6347'), d3.rgb('#FF0000')]);		
+
+				canvas.selectAll("rect")
+				.data(data)
+				.enter()
+					.append("rect")
+					.attr("width", function(d){ return d.avgFirstServe1; } )
+					.attr("height" , 15)
+					.attr("y", function(d,i){ return i*20;})
+					.attr("fill", function(d) { return colorScale(d.avgFirstServe1);});		
+
+
+
+					
+
+
+			})
+
+*/
+
+	</script>
+
+	</body>
+
+</html>

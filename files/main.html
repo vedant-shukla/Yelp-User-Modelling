@@ -1,0 +1,132 @@
+
+<div class="row">
+	<div class="col-md-4">
+		<img src="Images/yelp_fullcolor.png" class="img"/>
+	</div>
+	<div class="col-md-6 siteTitle">
+		User-Centric Yelp Dataset Visualization
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-6 mapDiv">
+		<button ng-click = "categoryChange('Restaurant')" ng-class="{categoryBtn:true, specBtn:RestaurantBtn}">Restaurant</button>
+		<button ng-click = "categoryChange('Shopping')" ng-class="{categoryBtn:true, specBtn:ShoppingBtn}">Shopping</button>
+		<button ng-click = "categoryChange('Health & Medical')" ng-class="{categoryBtn:true, specBtn:HealthBtn}">Health & Medical</button>
+		<button ng-click = "categoryChange('Home & Service')" ng-class="{categoryBtn:true, specBtn:HomeBtn}">Home & Service</button>
+		<button ng-click = "categoryChange('Beauty & Spa')" ng-class="{categoryBtn:true, specBtn:BeautyBtn}">Beauty & Spa</button>
+		<div class="row usLegend">
+		<div class="col-md-12 ">Choropleth US map based on overall rating of State in {{category}}</div>
+		</div>
+		<div class="mapContainer">
+			<div id="tooltip-container"></div>
+			<div id="canvas-svg"></div>
+		</div>
+	</div>
+	<div class="col-md-6">
+
+		<div class="donutContainer">
+			<div id="topUsersDonut">
+				<button  id="{{user.UserId}}" class="nameBtnDonut" ng-click="selectUser(user.UserId)" ng-repeat="user in topUsers" ng-disabled="disable">{{user.UserName}}</button>
+				<button ng-click="clearSelection()" id ="clear" class="categoryBtn specBtn">Clear Selection</button>	
+			</div>
+			<div id="topUsersDonut1" ></div>
+			<div class="textCenter">
+				Please select two users from above
+			</div>
+			<div class="selectedTwo">
+				<div class="row">
+				<div class="col-md-12 donutDiv">
+									<div class="row">
+					<div class="col-md-6 user2"></div>
+					<div class="col-md-6 user1"></div>
+				</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div id="UserReviewCount"></div>
+						</div>
+						<div class="col-md-4">
+							<div id="UsefullReviewCount"></div>
+						</div>
+						<div class="col-md-4">
+							<div id="FanCount"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div id="EliteCount"></div>
+						</div>
+						<div class="col-md-4">
+							<div id="ComplimentCount"></div>
+						</div>
+						<div class="col-md-4">
+							<div id="MonthCount"></div>
+						</div>
+					</div>
+				</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<select ng-change="categoryChange()" id="category" ng-model="category" style="display: none;">
+		<option value="Restaurant">Restaurant</option>
+		<option value="Shopping">Shopping</option>
+		<option value="Health & Medical">Health & Medical</option>
+		<option value="Home & Service">Home & Service</option>
+		<option value="Beauty & Spa">Beauty & Spa</option>
+</select>
+
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="topUsersTitle">Top Users of {{category}} Businesses of <span id="statespan"></span></div>			
+		<div id="topUsers">
+			<div ng-repeat="user in topUsers">
+				<div class="row nameRow">
+					<div class="col-md-8 paddingZero">
+						<button class="nameBtn" ng-click="selectUser1(user.UserId)">{{user.UserName}}</button>
+					</div>
+					<div class="col-md-4 paddingZero rank">
+						{{user.RatingOfUser}} 
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div id="topUsers1"></div>
+	</div>
+	<div class="col-md-5">
+		<div class="topRestTitle">Top {{category}} Businesses of <span id="statespan1"></span> of <span id="usernamespan"></span></div>
+		<div id="topRestaurant">
+			
+		</div>
+
+	</div>
+
+	<div class="col-md-4">
+		<div id="map"></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
