@@ -8,3 +8,4 @@ In this project, our visualization is emphasized on the users, not the businesse
 First we found the most influential Yelp users (whom are gourmets or journalists writing on food section of newspapers) and then list 
 businesses or restaurants they like, because it is more like a expert opinion or review it that specific business type.
 
+Demo: http://yelpdatasetvisualization.000webhostapp.com/
